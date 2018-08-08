@@ -1,7 +1,7 @@
 primecount := 1
 testprime := 1
 
-while primecount < 100
+while primecount < 10 
 begin
 
 	isprime := 1
