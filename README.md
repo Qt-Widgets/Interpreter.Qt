@@ -46,7 +46,7 @@ end
 ```
 
 ## Author
-- jamesdhutton
+- jamesdhutton (github)
 
 ## Qt Project
 - Project is port for Qt project. (by j2doll)
