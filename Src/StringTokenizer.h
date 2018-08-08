@@ -1,4 +1,15 @@
+#ifndef STRING_TO_TOKENIZER_H
+#define STRING_TO_TOKENIZER_H
+
 #pragma once
+
+#include <list>
+#include <memory>
+#include <exception>
+#include <sstream>
+#include <iostream>
+#include <map>
+#include <fstream>
 
 class CStringTokenizer 
 {
@@ -20,3 +31,5 @@ private:
 	long m_nCurrentPos;
 	long m_nNextPos;
 };
+
+#endif

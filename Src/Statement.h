@@ -1,6 +1,16 @@
 // Statement.h: interface for the Statement class.
 //
 //////////////////////////////////////////////////////////////////////
+#ifndef STATEMENT_H
+#define STATEMENT_H
+
+#include <list>
+#include <memory>
+#include <exception>
+#include <sstream>
+#include <iostream>
+#include <map>
+#include <fstream>
 
 #pragma once
 
@@ -76,3 +86,5 @@ private:
 	std::string m_variable;
 	Expression::ExprPtr m_expression;
 };
+
+#endif

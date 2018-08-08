@@ -1,5 +1,13 @@
-#include "StdAfx.h"
+// #include "StdAfx.h"
 #include "Context.h"
+
+#include <list>
+#include <memory>
+#include <exception>
+#include <sstream>
+#include <iostream>
+#include <map>
+#include <fstream>
 
 using namespace std;
 

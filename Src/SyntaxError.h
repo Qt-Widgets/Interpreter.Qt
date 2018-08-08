@@ -1,4 +1,15 @@
+#ifndef SYNTAX_ERROR_H
+#define SYNTAX_ERROR_H
+
 #pragma once
+
+#include <list>
+#include <memory>
+#include <exception>
+#include <sstream>
+#include <iostream>
+#include <map>
+#include <fstream>
 #include <exception>
 
 class SyntaxError : public std::exception
@@ -19,3 +30,5 @@ private:
 	std::string m_Err;
 
 };
+
+#endif

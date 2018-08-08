@@ -2,7 +2,18 @@
 //
 //////////////////////////////////////////////////////////////////////
 
+#ifndef EXPRESSION_H
+#define EXPRESSION_H
+
 #pragma once
+
+#include <list>
+#include <memory>
+#include <exception>
+#include <sstream>
+#include <iostream>
+#include <map>
+#include <fstream>
 
 #include "SyntaxError.h"
 #include "Token.h"
@@ -122,3 +133,6 @@ public:
 private:
 	ExprPtr m_expression;
 };
+
+
+#endif 

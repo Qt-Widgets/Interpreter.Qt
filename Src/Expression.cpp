@@ -2,7 +2,7 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#include "StdAfx.h"
+// #include "StdAfx.h"
 #include "Expression.h"
 
 using namespace std;

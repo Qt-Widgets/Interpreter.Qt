@@ -1,8 +1,18 @@
 // Program.h: interface for the Program class.
 //
 //////////////////////////////////////////////////////////////////////
+#ifndef PROGRAM_H
+#define PROGRAM_H
 
 #pragma once
+
+#include <list>
+#include <memory>
+#include <exception>
+#include <sstream>
+#include <iostream>
+#include <map>
+#include <fstream>
 
 #include "SyntaxError.h"
 #include "Statement.h"
@@ -23,3 +33,4 @@ private:
 	Context m_context;
 };
 
+#endif

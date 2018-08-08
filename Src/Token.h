@@ -1,4 +1,15 @@
+#ifndef TOKEN_H
+#define TOKEN_H
+
 #pragma once
+
+#include <list>
+#include <memory>
+#include <exception>
+#include <sstream>
+#include <iostream>
+#include <map>
+#include <fstream>
 
 enum eTokenID
 {
@@ -27,3 +38,5 @@ struct sToken
 
 typedef std::list<sToken> tokenList;
 typedef tokenList::iterator tokenIt;
+
+#endif
